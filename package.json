@@ -1,0 +1,15 @@
+{
+  "name": "dockanode-app",
+  "version": "1.0.0",
+  "description": "Just a simple web server running a small html page for docker.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Shreyas Gune",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
