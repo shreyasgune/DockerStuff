@@ -1,7 +1,0 @@
-version: '2'
-services:
-  web:
-    image: sgune/dockanode:1
-    ports:
-      - "80:3200"
-      
