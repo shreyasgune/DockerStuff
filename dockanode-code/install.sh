@@ -11,3 +11,11 @@ curl -L https://github.com/docker/compose/releases/download/1.13.0/docker-compos
 pip -V 
 docker-compose --version
 
+#Create a docker image with our stuff 
+sudo docker build -t sgune/dockanode:1 .
+
+#Spin it up
+sudo docker-compose -f docker-compose.yml down || true
+sudo docker-compose -f docker-compose.yml up -d
+
+
